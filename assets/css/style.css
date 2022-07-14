@@ -70,7 +70,7 @@ body {
 }
 
 .rules-box {
-    width: 75rem;
+    width: 100%;
     text-align: center;
     box-sizing: border-box;
     border: 2px solid black;
