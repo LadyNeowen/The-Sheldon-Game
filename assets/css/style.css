@@ -69,6 +69,18 @@ body {
     color: white;
 }
 
+/*Making the lock on for the images with changed background colour*/
+
+.r:active, .p:active, .s:active , .l:active , .sp:active  {
+    background-color: rgb(19, 143, 36);
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#active {
+    border: 1px solid black;
+}
+
 .rules-box {
     width: 100%;
     text-align: center;
