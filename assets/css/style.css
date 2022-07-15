@@ -46,8 +46,13 @@ body {
     width: 15%;
     height: 15rem;
     padding: 1%;
+    cursor: pointer;
 }
 
+#choices img:hover {
+    box-sizing: border-box;
+    border: 2px solid green;
+}
 
 #your-choice {
     width: 7%;
@@ -56,6 +61,8 @@ body {
     box-sizing: border-box;
     border: 1px solid green;
     margin-top: 10px;
+
+    
 }
 
 #computers-choice {
@@ -80,6 +87,13 @@ body {
 #computers-score {
     color: red;
     font-weight: bold;
+}
+
+.reload {
+    font-weight: bold;
+    width: 5%;
+    background-color: red;
+    cursor: pointer;
 }
 
 .footer {
