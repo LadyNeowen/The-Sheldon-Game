@@ -1,99 +1,89 @@
 body {
     background-color: rgb(241, 203, 154);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
     color: black;
     text-align: center;
 }
 
 .header {
     text-align: center;
-    font-size: 2rem;
+    font-size: 180%;
     padding: 2%;
+    text-decoration: underline;
+
+}
+
+.rules-box {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: rgb(219, 215, 215);
+    line-height: 25px;
 }
 
 .game-area {
     box-sizing: border-box;
+    width: 100%;
     border: 2px black solid;
     margin: auto;
     padding: 1%;
 
 }
 
-.r {
-    width: 11%;
-    height: 11%;
-    margin: auto;
+#choices {
+    width: 80%;
+    height: 15rem;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+#choices img {
+    width: 15%;
+    height: 15rem;
     padding: 1%;
 }
 
-.p, .s, .l, .sp {
-    width: 12%;
-    height: 12%;
-    margin: auto;
-    padding: 1%;
+
+#your-choice {
+    width: 7%;
+    height: 7rem;
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin-top: 10px;
 }
 
-#wins {
+#computers-choice {
+    width: 7%;
+    height: 7rem;
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin-top: 10px;
+
+}
+
+.score-area {
+    
+}
+
+#your-score {
     color: green;
     font-weight: bold;
 }
 
-#losses {
+#computers-score {
     color: red;
     font-weight: bold;
-}
-
-.score-area {
-    display: inline-block;
-    padding: 1%;
-    display: flexbox;
-    flex-direction: row;
-}
-
-.buttonDiv {
-    padding: 1%;
-    width: auto;
-}
-
-.button-lock {
-    background-color:rgb(28, 75, 146);
-    color:white;
-    font-size: 100%;
-    font-style:italic;
-    font-weight: bold;
-}
-
-.button-lock:active,
-.button-lock:hover {
-    background-color: rgb(19, 143, 36);
-    color: white;
-}
-
-/*Making the lock on for the images with changed background colour*/
-
-.r:active, .p:active, .s:active , .l:active , .sp:active  {
-    background-color: rgb(19, 143, 36);
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-#active {
-    border: 1px solid black;
-}
-
-.rules-box {
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    border: 2px solid black;
-    margin: auto;
-    padding: 1%;
-    margin-top: 2%;
-    background-color: rgb(219, 215, 215);
-    line-height: 25px;
 }
 
 .footer {
     display: flexbox;
     justify-content: baseline;
 }
+
