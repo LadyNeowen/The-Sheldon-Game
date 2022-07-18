@@ -47,12 +47,33 @@ body {
     height: 15rem;
     padding: 1%;
     cursor: pointer;
+    transition: 100ms;
 }
 
 #choices img:hover {
-    box-sizing: border-box;
-    border: 2px solid green;
+    transform: scale(1.2);
 }
+
+.choice-results {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*transform: scale(1); */
+    /*opacity: .5;*/
+}
+
+.winner {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.loser {
+    opacity: .5;
+    transform: scale(1);
+
+}
+
+
+
 
 #your-choice {
     width: 7%;
@@ -61,8 +82,6 @@ body {
     box-sizing: border-box;
     border: 1px solid green;
     margin-top: 10px;
-
-    
 }
 
 #computers-choice {
@@ -73,10 +92,6 @@ body {
     border: 1px solid red;
     margin-top: 10px;
 
-}
-
-.score-area {
-    
 }
 
 #your-score {
@@ -99,5 +114,6 @@ body {
 .footer {
     display: flexbox;
     justify-content: baseline;
+    margin-top: 10%;
 }
 

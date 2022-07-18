@@ -25,7 +25,9 @@ function selectChoice () {
     document.getElementById('computers-choice').src = computer + '.jpg'
 
 
+
     // check for winner
+
     if (you == computer) {
         yourScore += 1;
         computerScore += 1;
@@ -34,43 +36,69 @@ function selectChoice () {
         if (you == 'rock') {
             if (computer == 'scissors' || computer == 'lizard') {
                 yourScore +=1;
+                document.getElementById('your-choice').classList.add('winner');
+                document.getElementById('computers-choice').classList.add('loser');
             }
             else {
                 computerScore += 1;
+                document.getElementById('computers-choice').classList.add('winner');
+                document.getElementById('your-choice').classList.add('loser');
             }
         }
         
         if (you == 'paper') {
             if (computer == 'rock' || computer == 'spock') {
                 yourScore +=1;
+                document.getElementById('your-choice').classList.add('winner');
+                document.getElementById('computers-choice').classList.add('loser');
             }
             else {
                 computerScore += 1;
+                document.getElementById('computers-choice').classList.add('winner');
+                document.getElementById('your-choice').classList.add('loser');
             }
         }
         if (you == 'scissors') {
             if (computer == 'paper' || computer == 'lizard') {
                 yourScore +=1;
+                document.getElementById('your-choice').classList.add('winner');
+                document.getElementById('computers-choice').classList.add('loser');
+                
             }
             else {
                 computerScore += 1;
+                document.getElementById('computers-choice').classList.add('winner');
+                document.getElementById('your-choice').classList.add('loser');
+                
             }
         }
         
         if (you == 'lizard') {
             if (computer == 'spock' || computer == 'paper') {
                 yourScore +=1;
+                document.getElementById('your-choice').classList.add('winner');
+                document.getElementById('computers-choice').classList.add('loser');
+                
             }
             else {
                 computerScore += 1;
+                document.getElementById('computers-choice').classList.add('winner');
+                document.getElementById('your-choice').classList.add('loser');
+                
             }
         }
         if (you == 'spock') {
             if (computer == 'scissors' || computer == 'rock') {
                 yourScore +=1;
+                document.getElementById('your-choice').classList.add('winner');
+                document.getElementById('computers-choice').classList.add('loser');
+                
             }
             else {
                 computerScore += 1;
+                document.getElementById('computers-choice').classList.add('winner');
+                document.getElementById('your-choice').classList.add('loser');
+
             }
         }
 
