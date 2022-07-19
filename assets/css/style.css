@@ -9,7 +9,6 @@ body {
     text-align: center;
     font-size: 180%;
     padding: 2%;
-    text-decoration: underline;
 
 }
 
@@ -27,12 +26,8 @@ body {
 }
 
 .game-area {
-    box-sizing: border-box;
     width: 100%;
-    border: 2px black solid;
     margin: auto;
-    padding: 1%;
-
 }
 
 #choices {
@@ -40,6 +35,8 @@ body {
     height: 15rem;
     margin-top: 10px;
     margin: 0 auto;
+
+    /* Add reset function with timer and delay*/
 }
 
 #choices img {
@@ -55,33 +52,40 @@ body {
 }
 
 .choice-results {
+    
     margin-top: 5%;
     margin-bottom: 5%;
-    /*transform: scale(1); */
-    /*opacity: .5;*/
-}
-
-.winner {
-    /*transform: scale(1.5);
-    opacity: 1;*/
-}
-
-.loser {
-    opacity: .5;
-    transform: scale(1);
-
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
 }
 
 
+.yourchoice1 {
+    font-size: 120%;
+    position: absolute;
+    top: -50px;
+    left: 550px;
+    
+}
 
+.yourchoice2 {
+    font-size: 120%;
+    position: absolute;
+    top: -50px;
+    right: 520px;
+    
+}
 
 #your-choice {
     width: 7%;
     height: 7rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 1px solid green;
+    border: 1px solid black;
     margin-top: 10px;
+
 }
 
 #computers-choice {
@@ -89,8 +93,16 @@ body {
     height: 7rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px solid  black;
     margin-top: 10px;
+    
+
+}
+
+.score-area {
+    padding: 0;
+    margin-top: 5%;
+    font-size: 140%;
 
 }
 
@@ -106,14 +118,13 @@ body {
 
 .reload {
     font-weight: bold;
-    width: 5%;
+    width: 7%;
     background-color: red;
     cursor: pointer;
+    font-size: 120%;
 }
 
 .footer {
-    display: flexbox;
-    justify-content: baseline;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 

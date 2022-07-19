@@ -37,12 +37,12 @@ function selectChoice () {
             if (computer == 'scissors' || computer == 'lizard') {
                 yourScore +=1;
                 document.getElementById('your-choice').classList.add('winner');
-                document.getElementById('computers-choice').classList.add('loser');
+                
             }
             else {
                 computerScore += 1;
                 document.getElementById('computers-choice').classList.add('winner');
-                document.getElementById('your-choice').classList.add('loser');
+
             }
         }
         
@@ -50,25 +50,23 @@ function selectChoice () {
             if (computer == 'rock' || computer == 'spock') {
                 yourScore +=1;
                 document.getElementById('your-choice').classList.add('winner');
-                document.getElementById('computers-choice').classList.add('loser');
+                
             }
             else {
                 computerScore += 1;
                 document.getElementById('computers-choice').classList.add('winner');
-                document.getElementById('your-choice').classList.add('loser');
+    
             }
         }
         if (you == 'scissors') {
             if (computer == 'paper' || computer == 'lizard') {
                 yourScore +=1;
                 document.getElementById('your-choice').classList.add('winner');
-                document.getElementById('computers-choice').classList.add('loser');
                 
             }
             else {
                 computerScore += 1;
                 document.getElementById('computers-choice').classList.add('winner');
-                document.getElementById('your-choice').classList.add('loser');
                 
             }
         }
@@ -77,13 +75,11 @@ function selectChoice () {
             if (computer == 'spock' || computer == 'paper') {
                 yourScore +=1;
                 document.getElementById('your-choice').classList.add('winner');
-                document.getElementById('computers-choice').classList.add('loser');
                 
             }
             else {
                 computerScore += 1;
                 document.getElementById('computers-choice').classList.add('winner');
-                document.getElementById('your-choice').classList.add('loser');
                 
             }
         }
@@ -91,13 +87,12 @@ function selectChoice () {
             if (computer == 'scissors' || computer == 'rock') {
                 yourScore +=1;
                 document.getElementById('your-choice').classList.add('winner');
-                document.getElementById('computers-choice').classList.add('loser');
                 
             }
             else {
                 computerScore += 1;
                 document.getElementById('computers-choice').classList.add('winner');
-                document.getElementById('your-choice').classList.add('loser');
+                
 
             }
         }
