@@ -44,7 +44,7 @@ body {
     height: 15rem;
     padding: 1%;
     cursor: pointer;
-    transition: 100ms;
+    transition: 200ms;
 }
 
 #choices img:hover {
@@ -62,28 +62,28 @@ body {
 }
 
 
-.yourchoice1 {
+/*.yourchoice1 {
     font-size: 120%;
     position: absolute;
     top: -50px;
     left: 550px;
-    
 }
+*/
 
-.yourchoice2 {
+/*.yourchoice2 {
     font-size: 120%;
     position: absolute;
     top: -50px;
     right: 520px;
     
-}
+}*/
 
 #your-choice {
     width: 7%;
     height: 7rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 3px solid green;
     margin-top: 10px;
 
 }
@@ -93,10 +93,14 @@ body {
     height: 7rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 1px solid  black;
+    border: 3px solid  red;
     margin-top: 10px;
-    
 
+}
+
+.winner {
+    scale: 1.5;
+    opacity: 1;
 }
 
 .score-area {
