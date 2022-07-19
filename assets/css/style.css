@@ -62,8 +62,8 @@ body {
 }
 
 .winner {
-    transform: scale(1.5);
-    opacity: 1;
+    /*transform: scale(1.5);
+    opacity: 1;*/
 }
 
 .loser {
