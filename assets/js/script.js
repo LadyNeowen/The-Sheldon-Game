@@ -29,8 +29,8 @@ function selectChoice () {
     // check for winner
 
     if (you == computer) {
-        yourScore += 1;
-        computerScore += 1;
+        yourScore += 0;
+        computerScore += 0;
   } 
     else {
         if (you == 'rock') {
@@ -96,11 +96,21 @@ function selectChoice () {
 
             }
         }
-
-
         
     }
+
 
     document.getElementById('your-score').innerText = yourScore;
     document.getElementById('computers-score').innerText = computerScore;
   }
+
+  /*function gameOver (event) {
+    let (for i = 0; i < 6; i++) {
+        if [i] = 6; {
+            let textNode = document.createTextNode("Unsurprisingly, you have lost."); document.body.appendChild(textNode);
+    
+
+        }
+
+    }
+}*/

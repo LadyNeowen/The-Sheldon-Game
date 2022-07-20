@@ -79,8 +79,8 @@ body {
 }*/
 
 #your-choice {
-    width: 7%;
-    height: 7rem;
+    width: 10%;
+    height: 10rem;
     background-color: lightgray;
     box-sizing: border-box;
     border: 3px solid green;
@@ -89,8 +89,8 @@ body {
 }
 
 #computers-choice {
-    width: 7%;
-    height: 7rem;
+    width: 10%;
+    height: 10rem;
     background-color: lightgray;
     box-sizing: border-box;
     border: 3px solid  red;
