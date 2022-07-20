@@ -2,6 +2,8 @@ var you;
 var yourScore = 0;
 var computer;
 var computerScore = 0;
+var gameOver;
+var turns = 0;
 
 var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
@@ -104,13 +106,10 @@ function selectChoice () {
     document.getElementById('computers-score').innerText = computerScore;
   }
 
-  /*function gameOver (event) {
-    let (for i = 0; i < 6; i++) {
-        if [i] = 6; {
-            let textNode = document.createTextNode("Unsurprisingly, you have lost."); document.body.appendChild(textNode);
-    
+function gameOver () {
+var paragraph = document.getElementById("winner");
+var text = document.createTextNode("Oh would you look at that? You actually won!");
 
-        }
+paragraph.appendChild(text);
 
-    }
-}*/
+}
