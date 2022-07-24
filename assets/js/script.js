@@ -27,7 +27,6 @@ function selectChoice () {
     document.getElementById('computers-choice').src = computer + '.jpg'
 
 
-
     // check for winner
 
     if (you == computer) {
@@ -97,19 +96,36 @@ function selectChoice () {
                 
 
             }
-        }
-        
+           /* function gameOver () {
+                if (computerScore > 6);
+                alert('Game Over!') {
+                    else if (yourScore > 6;)
+                    alert('Game Over!')
+                }
+            }
+            */
+
     }
+    
+
+}
 
 
     document.getElementById('your-score').innerText = yourScore;
     document.getElementById('computers-score').innerText = computerScore;
   }
 
-function gameOver () {
+
+
+ /* for (let turns = 0; turns < 6; turns++); if (turns == 6) { 
+    alert(message: Game Over); 
+} */
+
+
+/*function gameOver () {
 var paragraph = document.getElementById("winner");
 var text = document.createTextNode("Oh would you look at that? You actually won!");
 
 paragraph.appendChild(text);
 
-}
+}*/
