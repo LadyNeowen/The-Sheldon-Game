@@ -36,58 +36,47 @@ function selectChoice() {
         if (you == 'rock') {
             if (computer == 'scissors' || computer == 'lizard') {
                 yourScore += 1;
-                document.getElementById('your-choice').classList.add('winner');
 
             } else {
                 computerScore += 1;
-                document.getElementById('computers-choice').classList.add('winner');
-
             }
         }
 
         if (you == 'paper') {
             if (computer == 'rock' || computer == 'spock') {
                 yourScore += 1;
-                document.getElementById('your-choice').classList.add('winner');
+        
 
             } else {
                 computerScore += 1;
-                document.getElementById('computers-choice').classList.add('winner');
-
+                
             }
         }
         if (you == 'scissors') {
             if (computer == 'paper' || computer == 'lizard') {
                 yourScore += 1;
-                document.getElementById('your-choice').classList.add('winner');
-
+                
             } else {
                 computerScore += 1;
-                document.getElementById('computers-choice').classList.add('winner');
-
+              
             }
         }
 
         if (you == 'lizard') {
             if (computer == 'spock' || computer == 'paper') {
                 yourScore += 1;
-                document.getElementById('your-choice').classList.add('winner');
 
             } else {
                 computerScore += 1;
-                document.getElementById('computers-choice').classList.add('winner');
-
+            
             }
         }
         if (you == 'spock') {
             if (computer == 'scissors' || computer == 'rock') {
                 yourScore += 1;
-                document.getElementById('your-choice').classList.add('winner');
 
             } else {
                 computerScore += 1;
-                document.getElementById('computers-choice').classList.add('winner');
-
 
             }
         }
