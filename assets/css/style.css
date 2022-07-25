@@ -169,20 +169,16 @@ body {
     #computers-choice {
         width: 25%;
         height: 3rem;
-        
     }
     
     .score-area {
         font-size: 60%;
-    
     }
 
     
     #message {
       display: none;
       top: 75%;
-      
-      
       font-size: 60%;
       
     }
@@ -199,8 +195,4 @@ body {
         font-size: 90%;
     }
     
-
-
-
-
 }
