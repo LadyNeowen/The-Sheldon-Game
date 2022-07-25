@@ -85,6 +85,7 @@ body {
     padding: 0;
     margin-top: 5%;
     font-size: 140%;
+    margin-bottom: 5%;
 
 }
 
@@ -100,10 +101,8 @@ body {
 
 #message {
   display: none;
-    
-
   padding: 10px;
-  top: 135%;
+  top: 140%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
@@ -111,7 +110,7 @@ body {
   position: absolute;
   width: 50%;
   text-align: center;
-  font-size: 180%;
+  font-size: 170%;
   color: blue;
   font-weight: bold;
   
@@ -132,6 +131,387 @@ body {
 }
 
 
+
+/*For very large to large screen size from 1626px wide and down*/
+@media screen and (max-width: 1626px) {
+    
+    .header {
+        font-size: 180%;
+    }
+    
+    .rules-box {
+        font-size: 120%;
+        width: 60%;
+        line-height: 20px;
+    }
+    
+    #choices {
+        width: 100%;
+        height: 20rem;
+    }
+
+    #choices img {
+        width: 15%;
+        height: 14rem;
+    }
+
+    
+    #your-choice {
+        width: 14%;
+        height: 12rem;
+    }
+    
+    #computers-choice {
+        width: 14%;
+        height: 12rem;
+    }
+    
+    .score-area {
+        font-size: 120%;
+    }
+
+    
+    #message {
+      display: none;
+      top:  145%;
+      font-size: 120%;
+      
+    }
+        
+    .reload {
+        width: 8%;
+        font-size: 100%;
+    }
+    
+}
+
+/*For very large to large screen size from 1376px wide and down*/
+@media screen and (max-width: 1376px) {
+    
+    .header {
+        font-size: 180%;
+    }
+    
+    .rules-box {
+        font-size: 120%;
+        width: 60%;
+        line-height: 20px;
+    }
+    
+    #choices {
+        width: 100%;
+        height: 20rem;
+    }
+
+    #choices img {
+        width: 15%;
+        height: 12rem;
+    }
+
+    
+    #your-choice {
+        width: 14%;
+        height: 10rem;
+    }
+    
+    #computers-choice {
+        width: 14%;
+        height: 10rem;
+    }
+    
+    .score-area {
+        font-size: 120%;
+    }
+
+    
+    #message {
+      display: none;
+      top:  130%;
+      font-size: 120%;
+      
+    }
+        
+    .reload {
+        width: 10%;
+        font-size: 100%;
+    }
+    
+}
+
+
+/*For very large to large screen size from 1200px wide and down*/
+@media screen and (max-width: 1200px) {
+    
+    .header {
+        font-size: 160%;
+    }
+    
+    .rules-box {
+        font-size: 100%;
+        width: 60%;
+        line-height: 20px;
+    }
+    
+    #choices {
+        width: 100%;
+        height: 15rem;
+    }
+
+    #choices img {
+        width: 15%;
+        height: 10rem;
+    }
+
+    
+    #your-choice {
+        width: 14%;
+        height: 8rem;
+    }
+    
+    #computers-choice {
+        width: 14%;
+        height: 8rem;
+    }
+    
+    .score-area {
+        font-size: 110%;
+    }
+
+    
+    #message {
+      display: none;
+      top:  105%;
+      font-size: 120%;
+      
+    }
+        
+    .reload {
+        width: 12%;
+        font-size: 100%;
+    }
+    
+}
+
+
+/*For very large to large screen size from 1024px wide and down*/
+@media screen and (max-width: 1024px) {
+    
+    .header {
+        font-size: 150%;
+    }
+    
+    .rules-box {
+        font-size: 100%;
+        width: 80%;
+        line-height: 20px;
+    }
+    
+    #choices {
+        width: 100%;
+        height: 15rem;
+    }
+
+    #choices img {
+        width: 15%;
+        height: 8rem;
+    }
+
+    
+    #your-choice {
+        width: 14%;
+        height: 7rem;
+    }
+    
+    #computers-choice {
+        width: 14%;
+        height: 7rem;
+    }
+    
+    .score-area {
+        font-size: 100%;
+    }
+
+    
+    #message {
+      display: none;
+      top:  100%;
+      font-size: 100%;
+      
+    }
+        
+    .reload {
+        width: 12%;
+        font-size: 90%;
+    }
+    
+}
+
+/*For very large to large screen size from 768px wide and down*/
+@media screen and (max-width: 768px) {
+    
+    .header {
+        font-size: 140%;
+    }
+    
+    .rules-box {
+        font-size: 100%;
+        width: 90%;
+        line-height: 15px;
+    }
+    
+    #choices {
+        width: 100%;
+        height: 15rem;
+    }
+
+    #choices img {
+        width: 15%;
+        height: 7rem;
+    }
+
+    
+    #your-choice {
+        width: 15%;
+        height: 6rem;
+    }
+    
+    #computers-choice {
+        width: 15%;
+        height: 6rem;
+    }
+    
+    .score-area {
+        font-size: 100%;
+    }
+
+    
+    #message {
+      display: none;
+      top: 95%;
+      font-size: 80%;
+      
+    }
+        
+    .reload {
+        width: 15%;
+        font-size: 80%;
+    }
+    
+}
+
+
+/*For very large to large screen size from 481px wide and down*/
+@media screen and (max-width: 481px) {
+    
+    .header {
+        font-size: 120%;
+    }
+    
+    .rules-box {
+        font-size: 80%;
+        width: 100%;
+        line-height: 14px;
+    }
+    
+    
+    #choices {
+        width: 90%;
+        height: 20rem;
+    }
+    
+    
+    #choices img {
+        width: 25%;
+        height: 6rem;
+    }
+
+    
+    #your-choice {
+        width: 20%;
+        height: 5rem;
+    }
+    
+    #computers-choice {
+        width: 20%;
+        height: 5rem;
+    }
+    
+    .score-area {
+        font-size: 90%;
+    }
+
+    
+    #message {
+      display: none;
+      top: 95%;
+      font-size: 80%;
+      
+    }
+        
+    .reload {
+        width: 25%;
+        font-size: 80%;
+    }
+    
+}
+
+/*For very large to large screen size from 320px wide and down*/
+@media screen and (max-width: 320px) {
+    
+    .header {
+        font-size: 100%;
+    }
+    
+    .rules-box {
+        font-size: 70%;
+        width: 100%;
+        line-height: 12px;
+    }
+    
+    
+    #choices {
+        width: 100%;
+        height: 14rem;
+    }
+    
+    
+    #choices img {
+        width: 30%;
+        height: 5rem;
+    }
+
+    
+    #your-choice {
+        width: 25%;
+        height: 4rem;
+    }
+    
+    #computers-choice {
+        width: 25%;
+        height: 4rem;
+    }
+    
+    .score-area {
+        font-size: 70%;
+    }
+
+    
+    #message {
+      display: none;
+      top: 85%;
+      font-size: 60%;
+      
+    }
+        
+    .reload {
+        width: 40%;
+        font-size: 80%;
+    }
+    
+    .footer {
+        font-size: 80%;
+    }
+}
 
 /*For very large to large screen size from 252px wide and down*/
 @media screen and (max-width:252px) {
@@ -195,16 +575,15 @@ body {
     
 }
 
-
-/*For very large to large screen size from 320px wide and down*/
-@media screen and (max-width: 320px) {
+/*For very large to large screen size from 180px wide and down*/
+@media screen and (max-width:180px) {
     
     .header {
-        font-size: 100%;
+        font-size: 80%;
     }
     
     .rules-box {
-        font-size: 70%;
+        font-size: 60%;
         width: 100%;
         line-height: 12px;
     }
@@ -212,313 +591,45 @@ body {
     
     #choices {
         width: 100%;
-        height: 14rem;
+        height: 10rem;
     }
     
     
     #choices img {
         width: 30%;
-        height: 5rem;
+        height: 3rem;
     }
 
     
     #your-choice {
         width: 25%;
-        height: 4rem;
+        height: 2.5rem;
     }
     
     #computers-choice {
         width: 25%;
-        height: 4rem;
+        height: 2.5rem;
     }
     
     .score-area {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     
     #message {
       display: none;
-      top: 85%;
-      font-size: 60%;
+      top: 90%;
+      font-size: 50%;
       
     }
         
     .reload {
         width: 40%;
-        font-size: 80%;
+        font-size: 60%;
     }
     
     .footer {
-        font-size: 80%;
-    }
-}
-
-/*For very large to large screen size from 481px wide and down*/
-@media screen and (max-width: 481px) {
-    
-    .header {
-        font-size: 120%;
-    }
-    
-    .rules-box {
-        font-size: 80%;
-        width: 100%;
-        line-height: 14px;
-    }
-    
-    
-    #choices {
-        width: 90%;
-        height: 20rem;
-    }
-    
-    
-    #choices img {
-        width: 25%;
-        height: 6rem;
-    }
-
-    
-    #your-choice {
-        width: 20%;
-        height: 5rem;
-    }
-    
-    #computers-choice {
-        width: 20%;
-        height: 5rem;
-    }
-    
-    .score-area {
-        font-size: 90%;
-    }
-
-    
-    #message {
-      display: none;
-      top: 95%;
-      font-size: 80%;
-      
-    }
-        
-    .reload {
-        width: 25%;
-        font-size: 80%;
-    }
-    
-}
-
-/*For very large to large screen size from 768px wide and down*/
-@media screen and (max-width: 768px) {
-    
-    .header {
-        font-size: 140%;
-    }
-    
-    .rules-box {
-        font-size: 100%;
-        width: 90%;
-        line-height: 15px;
-    }
-    
-    #choices {
-        width: 100%;
-        height: 15rem;
-    }
-
-    #choices img {
-        width: 15%;
-        height: 7rem;
-    }
-
-    
-    #your-choice {
-        width: 15%;
-        height: 6rem;
-    }
-    
-    #computers-choice {
-        width: 15%;
-        height: 6rem;
-    }
-    
-    .score-area {
-        font-size: 100%;
-    }
-
-    
-    #message {
-      display: none;
-      top: 95%;
-      font-size: 80%;
-      
-    }
-        
-    .reload {
-        width: 15%;
-        font-size: 80%;
-    }
-    
-}
-
-/*For very large to large screen size from 1024px wide and down*/
-@media screen and (max-width: 1024px) {
-    
-    .header {
-        font-size: 150%;
-    }
-    
-    .rules-box {
-        font-size: 100%;
-        width: 80%;
-        line-height: 20px;
-    }
-    
-    #choices {
-        width: 100%;
-        height: 15rem;
-    }
-
-    #choices img {
-        width: 15%;
-        height: 8rem;
-    }
-
-    
-    #your-choice {
-        width: 14%;
-        height: 7rem;
-    }
-    
-    #computers-choice {
-        width: 14%;
-        height: 7rem;
-    }
-    
-    .score-area {
-        font-size: 100%;
-    }
-
-    
-    #message {
-      display: none;
-      top:  100%;
-      font-size: 100%;
-      
-    }
-        
-    .reload {
-        width: 12%;
-        font-size: 90%;
-    }
-    
-}
-
-
-/*For very large to large screen size from 1200px wide and down*/
-@media screen and (max-width: 1200px) {
-    
-    .header {
-        font-size: 160%;
-    }
-    
-    .rules-box {
-        font-size: 100%;
-        width: 60%;
-        line-height: 20px;
-    }
-    
-    #choices {
-        width: 100%;
-        height: 15rem;
-    }
-
-    #choices img {
-        width: 15%;
-        height: 10rem;
-    }
-
-    
-    #your-choice {
-        width: 14%;
-        height: 8rem;
-    }
-    
-    #computers-choice {
-        width: 14%;
-        height: 8rem;
-    }
-    
-    .score-area {
-        font-size: 110%;
-    }
-
-    
-    #message {
-      display: none;
-      top:  105%;
-      font-size: 120%;
-      
-    }
-        
-    .reload {
-        width: 12%;
-        font-size: 100%;
-    }
-    
-}
-
-
-/*For very large to large screen size from 1376px wide and down*/
-@media screen and (max-width: 1376px) {
-    
-    .header {
-        font-size: 180%;
-    }
-    
-    .rules-box {
-        font-size: 120%;
-        width: 60%;
-        line-height: 20px;
-    }
-    
-    #choices {
-        width: 100%;
-        height: 20rem;
-    }
-
-    #choices img {
-        width: 15%;
-        height: 12rem;
-    }
-
-    
-    #your-choice {
-        width: 14%;
-        height: 10rem;
-    }
-    
-    #computers-choice {
-        width: 14%;
-        height: 10rem;
-    }
-    
-    .score-area {
-        font-size: 120%;
-    }
-
-    
-    #message {
-      display: none;
-      top:  125%;
-      font-size: 120%;
-      
-    }
-        
-    .reload {
-        width: 10%;
-        font-size: 100%;
+        font-size: 50%;
     }
     
 }
