@@ -14,7 +14,7 @@ window.onload = function () {
         choice.addEventListener('click', selectChoice);
         document.getElementById('choices').append(choice);
     }
-}
+};
 
 function selectChoice() {
     you = this.id;
@@ -23,7 +23,7 @@ function selectChoice() {
     // random for computer
 
     computer = choices[Math.floor(Math.random() * choices.length)];
-    document.getElementById('computers-choice').src = computer + '.jpg'
+    document.getElementById('computers-choice').src = computer + '.jpg';
 
 
     // check for winner
@@ -90,10 +90,10 @@ function selectChoice() {
 
     function gameOver () {
 
-        const element = document.querySelector('#message')
+        const element = document.querySelector('#message');
 
-        if (computerScore > 3) Element.innerText = 'Game Over! - Unsurprisingly, you have lost.';
-        else if (yourScore > 3) Element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
+        if (computerScore > 3) element.innerText = 'Game Over! - Unsurprisingly, you have lost.';
+        else if (yourScore > 3) element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
 
         element.style.display = 'block';
 

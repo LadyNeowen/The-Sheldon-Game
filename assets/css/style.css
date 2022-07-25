@@ -13,6 +13,7 @@ body {
 }
 
 .rules-box {
+    font-size: 120%;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -37,7 +38,7 @@ body {
     margin: 0 auto;
 }
 
-/* Add reset function with timer and delay*/
+
 #choices img {
     width: 15%;
     height: 15rem;
@@ -77,7 +78,7 @@ body {
     box-sizing: border-box;
     border: 3px solid  red;
     margin-top: 10px;
-
+    
 }
 
 .score-area {
@@ -98,13 +99,29 @@ body {
 }
 
 #message {
-    display: none;
+  display: none;
+    
+
+  padding: 10px;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  
+  position: absolute;
+  width: 50%;
+  text-align: center;
+  font-size: 180%;
+  color: blue;
+  font-weight: bold;
+  
 }
+    
  
 
 .reload {
     font-weight: bold;
-    width: 7%;
+    width: 8%;
     background-color: red;
     cursor: pointer;
     font-size: 120%;
@@ -114,3 +131,76 @@ body {
     margin-top: 5%;
 }
 
+
+
+/*For very large to large screen size from 252px wide and down*/
+@media screen and (max-width:252px) {
+    
+    .header {
+        font-size: 90%;
+        padding: 2%;
+    
+    }
+    
+    .rules-box {
+        font-size: 60%;
+        width: 100%;
+        line-height: 12px;
+    }
+    
+    
+    #choices {
+        width: 100%;
+        height: 10rem;
+    }
+    
+    
+    #choices img {
+        width: 30%;
+        height: 4rem;
+    }
+
+    
+    #your-choice {
+        width: 25%;
+        height: 3rem;
+    }
+    
+    #computers-choice {
+        width: 25%;
+        height: 3rem;
+        
+    }
+    
+    .score-area {
+        font-size: 60%;
+    
+    }
+
+    
+    #message {
+      display: none;
+      top: 75%;
+      
+      
+      font-size: 60%;
+      
+    }
+        
+    .reload {
+        font-weight: bold;
+        width: 40%;
+        background-color: red;
+        cursor: pointer;
+        font-size: 70%;
+    }
+    
+    .footer {
+        font-size: 90%;
+    }
+    
+
+
+
+
+}
