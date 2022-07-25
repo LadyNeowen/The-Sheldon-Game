@@ -3,7 +3,6 @@ var yourScore = 0;
 var computer;
 var computerScore = 0;
 var gameOver;
-var turns = 0;
 
 var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
@@ -81,7 +80,6 @@ function selectChoice() {
             }
         }
 
-
     }
 
 
@@ -91,6 +89,6 @@ function selectChoice() {
 }
 
     function gameOver () {
-        if (computerScore > 3) alert ('Game Over! Unsurprisingly, you have lost.');
-        else if (yourScore > 3) alert ('Game Over! Oh would you look at that? You actually won. Kudos.')
+        if (computerScore > 3) alert('Game Over! Unsurprisingly, you have lost.');
+        else if (yourScore > 3) alert('Game Over! Oh would you look at that? You actually won. Kudos.');
     }
