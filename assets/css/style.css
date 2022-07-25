@@ -97,7 +97,9 @@ body {
     font-weight: bold;
 }
 
-
+#message {
+    display: none;
+}
  
 
 .reload {

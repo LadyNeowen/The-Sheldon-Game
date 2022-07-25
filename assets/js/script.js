@@ -89,6 +89,12 @@ function selectChoice() {
 }
 
     function gameOver () {
-        if (computerScore > 3) alert('Game Over! Unsurprisingly, you have lost.');
-        else if (yourScore > 3) alert('Game Over! Oh would you look at that? You actually won. Kudos.');
+
+        const element = document.querySelector('#message')
+
+        if (computerScore > 3) Element.innerText = 'Game Over! - Unsurprisingly, you have lost.';
+        else if (yourScore > 3) Element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
+
+        element.style.display = 'block';
+
     }
