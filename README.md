@@ -1,108 +1,166 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to The Sheldon Cooper Game!
 
-Welcome LadyNeowen,
+This is a game of rock paper scissors, with a small extension to rock paper scissors lizard spock.
+It's a game that comes from the beloved Tv Show "Big Bang Theory"
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The game however is pretty simple with only a few tweeks.
+For fans and other people who enjoyed the Tv Show, this game and it's game-masters description is hopefully something that provokes humor for the user.
+It's a simple one page game with features that are easy to understand and follow to play the game.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+I had alot of fun channelling my inner Sheldon, so I hope that it comes across as humoristic and nothing else.
 
-## Gitpod Reminders
+Enjoy!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+![alt text](assets/images/6.responsiveness.png 'Media responsiveness')
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A blue button should appear to click: _Make Public_,
+## The Users Goals
 
-Another blue button should appear to click: _Open Browser_.
+* The user wishes to play a Rock, Paper, Scissors, Lizard, Spock game against the computer, using a score count.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## A New User
+* Can easely find the game and play it as many times as he or she wants.
 
-A blue button should appear to click: _Make Public_,
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Strategy
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Header
 
-Another blue button should appear to click: _Open Browser_.
+* The header is to indicate humor, that the person who created this game is in fact our beloved tv character "Dr Sheldon Cooper" from the series "Big Bang Theory"
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Navigation
 
-To log into the Heroku toolbelt CLI:
+* There is no navigation bar at this point, but there might be in upcoming updates.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## The top div with the words 
+"Greetings adventurer" followed by some text, is humoristic take on the task of making a Rock paper scissors lizard spock game.
+It is meant to both inform the user of the rules of the game, but also to bring forth a chuckle or a smile as they read through what was my imitation of "Sheldon Cooper".
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------
+## Game area
 
-## Release History
+The game is presented with 5 options at the top, 5 images of a hand doing the sign for either rock, paper, scissors, lizard or spock.
+The images are clickable and enlarge upon being hovered over.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Further down there are two empty boxes, one to the left and one to the right.
+The one to the left has a green border, and the one to the right has a red border.
+Underneath these two empty boxes you have the score area where the words Your Score followed by a green number, and underneath another line of Computers Score and a red number. These are the indicators of which box belongs to whom.
+The green box and the green number, represents the users choice, and vice versa for the computer but while using red as its indicator.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Below the score area there is a red button with the text "Reload game" which while hovered over has a pointer marker, and when pressed, refreshes the whole page and the game itself.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Above the button there is also a invisible div with the game over message that presents itself after either the user or the computer exceeds a score > 3.
+With the text 'Game Over! - Oh would you look at that? You actually won. Kudos.' if the user wins, or 'Game Over! - Unsurprisingly, you have lost.' if the computer wins.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Below this there is a footer with Sheldon coopers full signature and copyright icon. "Dr Sheldon Lee Cooper B.S, M.S, M.A, Ph.D, Sc.D ©2022"
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Footer
+* Shows the name and full list of diplomas for Sheldon cooper, as well as a copyright mark.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Possible upcoming features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* A way for the user to put in his or her username.
+* A highscore billboard
+* A "Play Game" button that takes the user to a separate page where the game is, instead of it being on the first page with the introduction.
+* A feature that makes the winning choice grow larger and the loosing choice get the opacity of 0.5, followed by a reset of the two before next choices are presented.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Design
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Colours
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* The colours are light and pretty straight forward, as to not confuse the user or drag away the attention from the game.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Fonts
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* I am using Georgia, Times New Roman, Times, serif, I think this give the site the look of a newspaper article, or somewhat a little old fashioned, which I believe is what "Sheldon Cooper" were to use if he excisted.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Screen Shots 
+ ![Header](assets/images/1.Header.with%20game.rules.and.jokes.png)
+ ![Game Area](assets/images/2.Game.area.png)
+ ![Game area choice clicked](assets/images/3.Game.area.with.%20a.choice.clicked.png)
+ ![Game area with hover function](assets/images/4.Game.area.with.hover.over.the.top.choices.showing.spock.scaled.up.png)
+ ![Footer](assets/images/5.Footer.with.sheldon.coopers.signature.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------
+# Testing
 
-## FAQ about the uptime script
+## As a new user
 
-**Why have you added this script?**
+* Upon arrival the user sees a game presentation and then quickly grasps how to play the game.
+* The user can re play the game as many times as she or he wants by simply pressing the reset game button. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**How will this affect me?**
+## As a returning user
+* Same as for a new user, the game is simple, the site is easy to understand so that anyone can bring up the website and play if they want to.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Validating HTML 5 and CSS 3
 
-**So….?**
+* Tested with The [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/). Congratulations! No Error Found.
+* Tested with The [W3C Markup Validation service](https://validator.w3.org/). No errors or warnings to show.
+* Google Chrome developer tool to find any remaining errors.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Bugs and fixes
+* Had problem with the alert message that was static on the page, but I got help from Chris in tutor support to so that I could use an element there instead that I could style to pop up whenever computerScore > 3 or yourScore > 3, to set a number of turns before the game is over.
+* Had problems with the message element moving around too much in my media quieries so finally I decided to remove the previous style from it and set it to be absolute with some margin and a br and it worked perfectly.
 
-**Can I opt out?**
+* Ran the The W3C CSS Validation service and The W3C Markup Validation service without errors.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* Ran the Jigsaw validator service without errors.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* Ran the Jshint Validation service without errors, apart for a remark about the img tag needing a src, but since this img tag was not used to actually hold an image, I disregarded this remark.
 
-**Anything more?**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Deployment 
 
----
+* Site will be deployed to Github Pages
+* This site is published at [https://ladyneowen.github.io/The-Sheldon-Game/](https://ladyneowen.github.io/The-Sheldon-Game/)
 
-Happy coding!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Credits
+
+* I would like to thank Chris and Alex from tutor support for helping me in moments of dispair. 
+* I would also like to thank my loving hubby Viktor Brandt, for helping me, soothing me and inspiring me to push on even when times are hard. 
+  And also for taking most of the responsebility with our 2,5 year old son so mommy can study. 
+  I love you Viktor.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Media 
+* Photos taken of my own hand and my boyfriends hand, using a cartoon filter.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Icons
+* Fonts and icons are taken from [FontAwesome](https://fontawesome.com/v5/search)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Links to other used pages
+
+* [Am I responsive](https://ui.dev/amiresponsive)
+* [Rock paper scissors inspiration 1](https://www.youtube.com/watch?v=1yS-JV4fWqY)
+* [Rock paper scissors inspiration 2](https://www.youtube.com/watch?v=fIBOydve2f8)
+* [Rock paper scissors inspiration 3](https://www.youtube.com/watch?v=C2_z34QFVjw&ab_channel=DaveGray)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+
+
+## Thank you for popping in! Have a great day!
+### // LadyNeowen
