@@ -1,6 +1,6 @@
 body {
     background-color: rgb(241, 203, 154);
-    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
 }
@@ -9,8 +9,10 @@ body {
     text-align: center;
     font-size: 180%;
     padding: 2%;
-
 }
+
+
+/*An introduction text with the rules of the game*/
 
 .rules-box {
     font-size: 120%;
@@ -26,10 +28,12 @@ body {
     line-height: 25px;
 }
 
+
 .game-area {
     width: 100%;
     margin: auto;
 }
+
 
 #choices {
     width: 100%;
@@ -37,6 +41,9 @@ body {
     margin: 0 auto;
 }
 
+
+/*Game images of rock paper scissors lizard spock, 
+with an effect to counter the scale up from the hover effect, making the transition 200ms slower instead of instant*/
 
 #choices img {
     width: 15%;
@@ -46,19 +53,25 @@ body {
     transition: 200ms;
 }
 
+
+/*Effect to scale up the images when hovered over*/
+
 #choices img:hover {
     transform: scale(1.2);
 }
 
+/*Result section for computer and player choices*/
+
 .choice-results {
-    
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    
 }
+
+
+/*Section for the players choice*/
 
 #your-choice {
     width: 10%;
@@ -67,26 +80,29 @@ body {
     box-sizing: border-box;
     border: 3px solid green;
     margin-top: 10px;
-
 }
+
+
+/*Section for the computers choice*/
 
 #computers-choice {
     width: 10%;
     height: 10rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 3px solid  red;
+    border: 3px solid red;
     margin-top: 10px;
-    
 }
+
+/*Section for the computers score and the players score*/
 
 .score-area {
     padding: 0;
     margin-top: 5%;
     font-size: 140%;
     margin-bottom: 5%;
-
 }
+
 
 #your-score {
     color: green;
@@ -99,6 +115,8 @@ body {
 }
 
 
+/*Button to reload the game and refresh the page*/
+
 .reload {
     font-weight: bold;
     width: 8%;
@@ -107,6 +125,9 @@ body {
     font-size: 120%;
     position: relative;
 }
+
+
+/*A gameover message that pops up once the player or the computer reaches the score of 4*/
 
 #message {
     display: none;
@@ -120,8 +141,7 @@ body {
     font-size: 170%;
     color: blue;
     font-weight: bold;
-    
-  }
+}
 
 
 .footer {
@@ -132,11 +152,11 @@ body {
 
 /*For very large to large screen size from 1626px wide and down*/
 @media screen and (max-width: 1626px) {
-    
+
     .header {
         font-size: 180%;
     }
-    
+
     .rules-box {
         font-size: 120%;
         width: 60%;
@@ -147,41 +167,41 @@ body {
         height: 14rem;
     }
 
-    
+
     #your-choice {
         width: 14%;
         height: 12rem;
     }
-    
+
     #computers-choice {
         width: 14%;
         height: 12rem;
     }
-    
+
     .score-area {
         font-size: 120%;
     }
 
-    
+
     #message {
-      font-size: 120%;
-      
+        font-size: 120%;
+
     }
-        
+
     .reload {
         width: 8%;
         font-size: 100%;
     }
-    
+
 }
 
 /*For very large to large screen size from 1376px wide and down*/
 @media screen and (max-width: 1376px) {
-    
+
     .header {
         font-size: 180%;
     }
-    
+
     .rules-box {
         font-size: 120%;
         width: 60%;
@@ -193,42 +213,42 @@ body {
         height: 12rem;
     }
 
-    
+
     #your-choice {
         width: 14%;
         height: 10rem;
     }
-    
+
     #computers-choice {
         width: 14%;
         height: 10rem;
     }
-    
+
     .score-area {
         font-size: 120%;
     }
 
-    
+
     #message {
-      font-size: 120%;
-      
+        font-size: 120%;
+
     }
-        
+
     .reload {
         width: 10%;
         font-size: 100%;
     }
-    
+
 }
 
 
 /*For large to large screen size from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
-    
+
     .header {
         font-size: 160%;
     }
-    
+
     .rules-box {
         font-size: 100%;
         width: 60%;
@@ -241,256 +261,256 @@ body {
         height: 10rem;
     }
 
-    
+
     #your-choice {
         width: 14%;
         height: 8rem;
     }
-    
+
     #computers-choice {
         width: 14%;
         height: 8rem;
     }
-    
+
     .score-area {
         font-size: 110%;
     }
 
-    
+
     #message {
-      font-size: 120%;
-      
+        font-size: 120%;
+
     }
-        
+
     .reload {
         width: 12%;
         font-size: 100%;
     }
-    
+
 }
 
 
 /*For large screen sizes from 1024px wide and down*/
 @media screen and (max-width: 1024px) {
-    
+
     .header {
         font-size: 150%;
     }
-    
+
     .rules-box {
         font-size: 100%;
         width: 80%;
         line-height: 20px;
     }
- 
+
     #choices img {
         width: 15%;
         height: 8rem;
     }
 
-    
+
     #your-choice {
         width: 14%;
         height: 7rem;
     }
-    
+
     #computers-choice {
         width: 14%;
         height: 7rem;
     }
-    
+
     .score-area {
         font-size: 100%;
     }
 
-    
+
     #message {
-      font-size: 100%;
-      
+        font-size: 100%;
+
     }
-        
+
     .reload {
         width: 12%;
         font-size: 90%;
     }
-    
+
 }
 
 
 /*For medium to large screen size from 768px wide and down*/
 @media screen and (max-width: 768px) {
-    
+
     .header {
         font-size: 140%;
     }
-    
+
     .rules-box {
         font-size: 100%;
         width: 90%;
         line-height: 15px;
     }
-    
+
     #choices img {
         width: 15%;
         height: 7rem;
     }
 
-    
+
     #your-choice {
         width: 15%;
         height: 6rem;
     }
-    
+
     #computers-choice {
         width: 15%;
         height: 6rem;
     }
-    
+
     .score-area {
         font-size: 100%;
     }
 
-    
+
     #message {
-      font-size: 80%;
-      
+        font-size: 80%;
+
     }
-        
+
     .reload {
         width: 20%;
         font-size: 80%;
     }
-    
+
 }
 
 /*For medium to large screen size from 636px wide and down*/
 @media screen and (max-width: 636px) {
-    
-    
-  
+
+
+
     #choices img {
         width: 15%;
         height: 6rem;
     }
 
-    
+
     #your-choice {
         width: 15%;
         height: 5rem;
     }
-    
+
     #computers-choice {
         width: 15%;
         height: 5rem;
     }
-    
+
     .score-area {
         font-size: 100%;
     }
 
-    
+
     #message {
-      font-size: 75%;
-      
+        font-size: 75%;
+
     }
-        
+
     .reload {
         width: 20%;
         font-size: 75%;
     }
-    
+
 }
 
 /*For medium to medium screen sizes from 481px wide and down*/
 @media screen and (max-width: 481px) {
-    
+
     .header {
         font-size: 120%;
     }
-    
+
     .rules-box {
         font-size: 80%;
         width: 100%;
         line-height: 14px;
     }
-    
+
     #choices img {
         width: 25%;
         height: 6rem;
     }
 
-    
+
     #your-choice {
         width: 20%;
         height: 5rem;
     }
-    
+
     #computers-choice {
         width: 20%;
         height: 5rem;
     }
-    
+
     .score-area {
         font-size: 90%;
     }
 
-    
+
     #message {
-      font-size: 70%;
-      
+        font-size: 70%;
+
     }
-        
+
     .reload {
         width: 25%;
         font-size: 55%;
     }
-    
+
 }
 
 /*For medium to small size from 408px wide and down*/
 @media screen and (max-width: 408px) {
-    
+
     .header {
         font-size: 100%;
     }
-    
+
     .rules-box {
         font-size: 70%;
         width: 100%;
         line-height: 12px;
     }
-    
+
     #choices img {
         width: 25%;
         height: 5rem;
     }
 
-    
+
     #your-choice {
         width: 20%;
         height: 4rem;
     }
-    
+
     #computers-choice {
         width: 20%;
         height: 4rem;
     }
-    
+
     .score-area {
         font-size: 70%;
     }
 
-    
+
     #message {
-      font-size: 60%;
-      
+        font-size: 60%;
+
     }
-        
+
     .reload {
         width: 25%;
         font-size: 60%;
     }
-    
+
     .footer {
         font-size: 80%;
     }
@@ -498,49 +518,49 @@ body {
 
 /*For very small to medium size from 320px wide and down*/
 @media screen and (max-width: 320px) {
-    
+
     .header {
         font-size: 100%;
     }
-    
+
     .rules-box {
         font-size: 70%;
         width: 100%;
         line-height: 12px;
     }
-    
+
 
     #choices img {
         width: 30%;
         height: 5rem;
     }
 
-    
+
     #your-choice {
         width: 25%;
         height: 4rem;
     }
-    
+
     #computers-choice {
         width: 25%;
         height: 4rem;
     }
-    
+
     .score-area {
         font-size: 70%;
     }
 
-    
+
     #message {
-      font-size: 60%;
-      
+        font-size: 60%;
+
     }
-        
+
     .reload {
         width: 35%;
         font-size: 60%;
     }
-    
+
     .footer {
         font-size: 80%;
     }
@@ -548,100 +568,100 @@ body {
 
 /*For small to very small screen size from 256px wide and down*/
 @media screen and (max-width:256px) {
-    
+
     .header {
         font-size: 90%;
     }
-    
+
     .rules-box {
         font-size: 60%;
         width: 100%;
         line-height: 12px;
     }
-    
+
     #choices img {
         width: 30%;
         height: 4rem;
     }
 
-    
+
     #your-choice {
         width: 25%;
         height: 3rem;
     }
-    
+
     #computers-choice {
         width: 25%;
         height: 3rem;
     }
-    
+
     .score-area {
         font-size: 60%;
     }
 
-    
+
     #message {
-      font-size: 60%;
+        font-size: 60%;
     }
-        
+
     .reload {
         width: 40%;
         font-size: 70%;
     }
-    
+
     .footer {
         font-size: 70%;
     }
-    
+
 }
 
 /*For very small to small screen size from 180px wide and down*/
 @media screen and (max-width:180px) {
-    
+
     .header {
         font-size: 80%;
     }
-    
+
     .rules-box {
         font-size: 60%;
         width: 100%;
         line-height: 12px;
     }
-    
-    
+
+
     #choices img {
         width: 30%;
         height: 3rem;
     }
 
-    
+
     #your-choice {
         width: 25%;
         height: 2.5rem;
     }
-    
+
     #computers-choice {
         width: 25%;
         height: 2.5rem;
     }
-    
+
     .score-area {
         font-size: 60%;
     }
 
-    
+
     #message {
-      font-size: 50%;
-      
+        font-size: 50%;
+
     }
-        
+
     .reload {
         width: 40%;
         font-size: 60%;
     }
-    
+
     .footer {
         font-size: 50%;
     }
-    
+
 }
