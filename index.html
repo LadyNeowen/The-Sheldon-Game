@@ -1,77 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--Font awesome and google fonts-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
 
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 
 <body>
-    <h1 class="header">Welcome to Sheldon Cooper's <br> Rock Paper Scissors Lizard Spock game!</h1>
+    <header>
+        <h1 class="header">Welcome to Sheldon Cooper's <br> Rock Paper Scissors Lizard Spock game!</h1>
+    </header>
 
-    <div class="rules-box">
-        
+    <section>
+        <div class="rules-box">
+
             <h2>Greetings adventurer! </h2>
-        <h4>
-            You are about to embark on a fantastic and mindbuzzling journey, <br>
-            to the exceedingly fun game of Stone, Paper, Scissors, Lizard, Spock! <br>
-            The upgraded version if you will, of the old and tiresome "rock, paper, scissors." <br>
-            
-            The rules you might ask? 
-            I'll be happy to explain it to you in words you'll understand, <br> with time and great effort even a lowly engineer could grasp the fundamentals of it, but don't let that fool you. <br>
-            This is not a game for the weak minded.. simpletons you have been warned! <br>
-            
-            So with no futher ado, here are the words of the renowned
-            Sheldon Cooper <br> and the parameters that which the game entails and how it is meant to be played. <br>
-            <br>
-            <br>
-            
-            "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, <br> Spock smashes scissors, scissors decapitates lizard, <br>
-             lizard eats paper, paper disproves Spock, Spock vaporizes rock, <br> and as it always has, rock crushes scissors."
+            <h4>
+                You are about to embark on a fantastic and mindbuzzling journey, <br>
+                to the exceedingly fun game of Stone, Paper, Scissors, Lizard, Spock! <br>
+                The upgraded version if you will, of the old and tiresome "rock, paper, scissors." <br>
+
+                The rules you might ask?
+                I'll be happy to explain it to you in words you'll understand, <br> with time and great effort even a
+                lowly engineer could grasp the fundamentals of it, but don't let that fool you. <br>
+                This is not a game for the weak minded.. simpletons you have been warned! <br>
+
+                So with no futher ado, here are the words of the renowned
+                Sheldon Cooper <br> and the parameters that which the game entails and how it is meant to be played.
+                <br>
+                <br>
+                <br>
+
+                "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, <br> Spock smashes
+                scissors, scissors decapitates lizard, <br>
+                lizard eats paper, paper disproves Spock, Spock vaporizes rock, <br> and as it always has, rock crushes
+                scissors."
             </h4>
             <h3>Live long and prosper. <i class="fa-solid fa-hand-spock"></i></h3>
-        
-    </div>
 
+        </div>
+    </section>
 
-    <div class="game-area">
-        <div id="choices"></div>
-        <br>
-    </div>
+    <section>
+        <div class="game-area">
+            <div id="choices"></div>
+            <br>
+        </div>
+    </section>
 
-
+    <section>
         <div class="score-area">
-        <p> Your Score <span id="your-score">0</span></p>
-        <p>Computer Score <span id="computers-score">0</span></p>
-      </div>
+            <p> Your Score <span id="your-score">0</span></p>
+            <p>Computer Score <span id="computers-score">0</span></p>
+        </div>
 
-      
         <div class="choice-results">
-         <img id="your-choice">
-        
-        
-         <img id="computers-choice">
-
-     </div>
+            <img id="your-choice">
+            <img id="computers-choice">
+        </div>
         <br>
         <br>
 
         <div id="message"></div>
         <br>
-        <button class="reload" type="submit" onClick="window.location.href=window.location.href">Reload Game</button> 
+        <button class="reload" type="submit" onClick="window.location.href=window.location.href">Reload Game</button>
 
-        
-    <div class="footer">
-    <h4>Dr Sheldon Lee Cooper <br> B.S, M.S, M.A, Ph.D, Sc.D ©2022</h4>
-    </div>
+    </section>
+
+
+    <footer class="footer">
+        <h4>Dr Sheldon Lee Cooper <br> B.S, M.S, M.A, Ph.D, Sc.D ©2022</h4>
+    </footer>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/ec608b363a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
