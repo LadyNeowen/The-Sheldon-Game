@@ -10,7 +10,7 @@ window.onload = function () {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement('img');
         choice.id = choices[i];
-        choice.src = choices[i] + '.jpg';
+        choice.src = `assets/images/${choices[i]}.jpg`;
         choice.addEventListener('click', selectChoice);
         document.getElementById('choices').append(choice);
     }
@@ -18,12 +18,12 @@ window.onload = function () {
 
 function selectChoice() {
     you = this.id;
-    document.getElementById('your-choice').src = you + '.jpg';
+    document.getElementById('your-choice').src = `assets/images/${you}.jpg`;
 
     // random for computer
 
     computer = choices[Math.floor(Math.random() * choices.length)];
-    document.getElementById('computers-choice').src = computer + '.jpg';
+    document.getElementById('computers-choice').src = `assets/images/${computer}.jpg`;
 
 
     // check for winner
