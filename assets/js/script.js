@@ -44,20 +44,20 @@ function selectChoice() {
         if (you == 'paper') {
             if (computer == 'rock' || computer == 'spock') {
                 yourScore += 1;
-        
+
 
             } else {
                 computerScore += 1;
-                
+
             }
         }
         if (you == 'scissors') {
             if (computer == 'paper' || computer == 'lizard') {
                 yourScore += 1;
-                
+
             } else {
                 computerScore += 1;
-              
+
             }
         }
 
@@ -67,7 +67,7 @@ function selectChoice() {
 
             } else {
                 computerScore += 1;
-            
+
             }
         }
         if (you == 'spock') {
@@ -85,16 +85,31 @@ function selectChoice() {
 
     document.getElementById('your-score').innerText = yourScore;
     document.getElementById('computers-score').innerText = computerScore;
-    gameOver ();
+    gameOver();
 }
 
-    function gameOver () {
+//** Game over function with popup text for winner or looser, as well as a function to make images unclickable after user or computer reaching a score of 4 */
 
-        const element = document.querySelector('#message');
+function gameOver() {
 
-        if (computerScore > 3) element.innerText = 'Game Over! - Unsurprisingly, you have lost.';
-        else if (yourScore > 3) element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
+    const element = document.querySelector('#message');
 
-        element.style.display = 'block';
+    if (computerScore > 3) {
+        element.innerText = 'Game Over! - Unsurprisingly, you have lost.';
 
+    } else if (yourScore > 3) {
+        element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
     }
+
+    function () {
+        if (computerScore === 4) {
+            document.getElementById('choices').removeAttribute('click');
+            choice.removeEventListener('click', selectChoice);
+
+        } else if (yourScore === 4) {
+            document.getElementById('choices').removeAttribute('click');
+            choice.removeEventListener('click', selectChoice);
+        }
+    }
+    element.style.display = 'block';
+}

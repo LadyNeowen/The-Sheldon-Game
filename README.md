@@ -97,6 +97,52 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 ## As a new user
 
+* If the user clicks "Rock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+If the computer chooses 'Rock' it is a tie and no one scores.
+If the computer chooses 'Paper' the computer scores 1 point.
+If the computer chooses 'Scissors' the user scores 1 point.
+If the computer chooses 'Lizard' the user scores 1 point.
+If the computer chooses 'Spock' the computer scores 1 point.
+
+
+* If the user clicks "Paper" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+If the computer chooses 'Rock' the user scores 1 point.
+If the computer chooses 'Paper' it is a tie and no one scores.
+If the computer chooses 'Scissors' the computer scores 1 point.
+If the computer chooses 'Lizard' the computer scores 1 point.
+If the computer chooses 'Spock' the user scores 1 point.
+
+
+* If the user clicks "Scissors" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+If the computer chooses 'Rock' the computer scores 1 point.
+If the computer chooses 'Paper' the user scores 1 point.
+If the computer chooses 'Scissors' it is a tie and no one scores.
+If the computer chooses 'Lizard' the user scores 1 point.
+If the computer chooses 'Spock' the computer scores 1 point.
+
+
+* If the user clicks "Lizard" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+If the computer chooses 'Rock' the computer scores 1 point.
+If the computer chooses 'Paper' the user scores 1 point.
+If the computer chooses 'Scissors' the computer scores 1 point.
+If the computer chooses 'Lizard' it is a tie and no one scores.
+If the computer chooses 'Spock' the user scores 1 point.
+
+
+* If the user clicks "Spock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+If the computer chooses 'Rock' the user scores 1 point.
+If the computer chooses 'Paper' the computer scores 1 point.
+If the computer chooses 'Scissors' the user scores 1 point.
+If the computer chooses 'Lizard' the computer scores 1 point.
+If the computer chooses 'Spock' it is a tie and no one scores.
+
+
+
 * Upon arrival the user sees a game presentation and then quickly grasps how to play the game.
 * The user can re play the game as many times as she or he wants by simply pressing the reset game button. 
 
@@ -125,9 +171,21 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 * Ran the Jshint Validation service without errors, apart for a remark about the img tag needing a src, but since this img tag was not used to actually hold an image, I disregarded this remark.
 
+* Had a problem with the images being clickable after game over, so I added a function that removed the eventlistener for click when either the user or the computer reached a score of 4. 
+
+* Was made awares of my wrong semantics, formatting and the lacking of comments to explain the various sections of code so I added these as well.
+
+* Made an accurate testing section here in the readme file.
+
+* Was made awares of the meaning of deployment so I added this to the readme file as well.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Deployment 
+
+* I went to my GitHub page and went to my repositories, there I clicked The-Sheldon-Game.
+* I then clicked settings and to the left lower side of the page, I clicked "pages".
+* Under "branch" I selected main, and then clicked save.
 
 * Site will be deployed to Github Pages
 * This site is published at [https://ladyneowen.github.io/The-Sheldon-Game/](https://ladyneowen.github.io/The-Sheldon-Game/)
