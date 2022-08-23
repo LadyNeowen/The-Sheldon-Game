@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 203, 154);
+    background-color: rgb(33, 168, 33);
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-align: center;
@@ -23,7 +23,7 @@ body {
     margin-top: 2%;
     margin-bottom: 5%;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 3px solid yellow;
     background-color: rgb(219, 215, 215);
     line-height: 25px;
 }
@@ -78,7 +78,7 @@ with an effect to counter the scale up from the hover effect, making the transit
     height: 10rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 3px solid green;
+    border: 3px solid yellow;
     margin-top: 10px;
 }
 
@@ -90,7 +90,7 @@ with an effect to counter the scale up from the hover effect, making the transit
     height: 10rem;
     background-color: lightgray;
     box-sizing: border-box;
-    border: 3px solid red;
+    border: 3px solid black;
     margin-top: 10px;
 }
 
@@ -105,12 +105,12 @@ with an effect to counter the scale up from the hover effect, making the transit
 
 
 #your-score {
-    color: green;
+    color:  yellow;
     font-weight: bold;
 }
 
 #computers-score {
-    color: red;
+    color:  black;
     font-weight: bold;
 }
 
@@ -120,7 +120,7 @@ with an effect to counter the scale up from the hover effect, making the transit
 .reload {
     font-weight: bold;
     width: 8%;
-    background-color: red;
+    background-color: yellow;
     cursor: pointer;
     font-size: 120%;
     position: relative;
@@ -139,7 +139,7 @@ with an effect to counter the scale up from the hover effect, making the transit
     width: 50%;
     text-align: center;
     font-size: 170%;
-    color: blue;
+    color: yellow;
     font-weight: bold;
 }
 

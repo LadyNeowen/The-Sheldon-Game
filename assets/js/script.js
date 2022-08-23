@@ -101,6 +101,7 @@ function gameOver() {
         element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
     }
 
+    /*
     function () {
         if (computerScore === 4) {
             document.getElementById('choices').removeAttribute('click');
@@ -110,6 +111,6 @@ function gameOver() {
             document.getElementById('choices').removeAttribute('click');
             choice.removeEventListener('click', selectChoice);
         }
-    }
+    }*/
     element.style.display = 'block';
 }
