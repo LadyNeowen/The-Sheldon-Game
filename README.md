@@ -85,28 +85,30 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Screen Shots 
- ![Header](assets/images/1.%20Header.with.game.rules.jpg)
- ![Game Area](assets/images/2.Game.area.jpg)
- ![Game area choice clicked](assets/images/3.Game.area.with.a.choice.clicked.jpg)
- ![Game area with hover function](assets/images/4.Game.area.with.hover.over.scissors.scaled.up.PNG)
- ![Footer](assets/images/5.footer.PNG)
+ Header![Header](assets/images/1.%20Header.with.game.rules.jpg)
+ Game Area![Game Area](assets/images/2.Game.area.jpg) Game Area
+ Game area with choice clicked![Game area choice clicked](assets/images/3.Game.area.with.a.choice.clicked.jpg) 
+ Game area with hover over scissors![Game area with hover function](assets/images/4.Game.area.with.hover.over.scissors.scaled.up.PNG)
+ Footer![Footer](assets/images/5.footer.PNG)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Testing
 
-## As a new user
-
-* If the user clicks "Rock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
-
-* If the computer chooses 'Rock' it is a tie and no one scores.
-* If the computer chooses 'Paper' the computer scores 1 point.
-* If the computer chooses 'Scissors' the user scores 1 point.
-* If the computer chooses 'Lizard' the user scores 1 point.
-* If the computer chooses 'Spock' the computer scores 1 point.
+# Testing - As a new user
 
 
-* If the user clicks "Paper" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+### If the user clicks "Rock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+
+ * If the computer chooses 'Rock' it is a tie and no one scores.
+ * If the computer chooses 'Paper' the computer scores 1 point.
+ * If the computer chooses 'Scissors' the user scores 1 point.
+ * If the computer chooses 'Lizard' the user scores 1 point.
+ * If the computer chooses 'Spock' the computer scores 1 point.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### If the user clicks "Paper" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
 * If the computer chooses 'Rock' the user scores 1 point.
 * If the computer chooses 'Paper' it is a tie and no one scores.
@@ -114,8 +116,9 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 * If the computer chooses 'Lizard' the computer scores 1 point.
 * If the computer chooses 'Spock' the user scores 1 point.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* If the user clicks "Scissors" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+### If the user clicks "Scissors" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
 * If the computer chooses 'Rock' the computer scores 1 point.
 * If the computer chooses 'Paper' the user scores 1 point.
@@ -123,8 +126,9 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 * If the computer chooses 'Lizard' the user scores 1 point.
 * If the computer chooses 'Spock' the computer scores 1 point.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* If the user clicks "Lizard" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+### If the user clicks "Lizard" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
 * If the computer chooses 'Rock' the computer scores 1 point.
 * If the computer chooses 'Paper' the user scores 1 point.
@@ -132,8 +136,9 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 * If the computer chooses 'Lizard' it is a tie and no one scores.
 * If the computer chooses 'Spock' the user scores 1 point.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* If the user clicks "Spock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
+### If the user clicks "Spock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
 * If the computer chooses 'Rock' the user scores 1 point.
 * If the computer chooses 'Paper' the computer scores 1 point.
@@ -141,9 +146,13 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 * If the computer chooses 'Lizard' the computer scores 1 point.
 * If the computer chooses 'Spock' it is a tie and no one scores.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 * Upon arrival the user sees a game presentation and then quickly grasps how to play the game.
+* The game is over once the computer or the player reaches 4 points, once the score 4 is reached for either party a popup message will appear,
+claiming either the player or the computer as the winner. 
+* After the score of 4 is reached for either party, the images will no longer be clickable and the game is over.
 * The user can re play the game as many times as she or he wants by simply pressing the reset game button. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
