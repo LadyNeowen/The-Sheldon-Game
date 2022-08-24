@@ -12,7 +12,7 @@ I had alot of fun channelling my inner Sheldon, so I hope that it comes across a
 Enjoy!
 
 
-![alt text](assets/images/6.responsiveness.png 'Media responsiveness')
+![alt text](assets/images/6.Am.i.responsive.PNG 'Media responsiveness')
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## The Users Goals
@@ -47,11 +47,11 @@ The game is presented with 5 options at the top, 5 images of a hand doing the si
 The images are clickable and enlarge upon being hovered over.
 
 Further down there are two empty boxes, one to the left and one to the right.
-The one to the left has a green border, and the one to the right has a red border.
-Underneath these two empty boxes you have the score area where the words Your Score followed by a green number, and underneath another line of Computers Score and a red number. These are the indicators of which box belongs to whom.
-The green box and the green number, represents the users choice, and vice versa for the computer but while using red as its indicator.
+The one to the left has a yellow border, and the one to the right has a black border.
+Underneath these two empty boxes you have the score area where the words Your Score followed by a yellow number, and underneath another line of Computers Score and a black number. These are the indicators of which box belongs to whom.
+The yellow box and the yellow number, represents the users choice, and vice versa for the computer but while using black as its indicator.
 
-Below the score area there is a red button with the text "Reload game" which while hovered over has a pointer marker, and when pressed, refreshes the whole page and the game itself.
+Below the score area there is a yellow button with the text "Reload game" which while hovered over has a pointer marker, and when pressed, refreshes the whole page and the game itself.
 
 Above the button there is also a invisible div with the game over message that presents itself after either the user or the computer exceeds a score > 3.
 With the text 'Game Over! - Oh would you look at that? You actually won. Kudos.' if the user wins, or 'Game Over! - Unsurprisingly, you have lost.' if the computer wins.
@@ -77,7 +77,7 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 ## Colours
 
-* The colours are light and pretty straight forward, as to not confuse the user or drag away the attention from the game.
+* The colours are strong and eyecatching while staying simple, as to not confuse the user or drag away the attention from the game.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Fonts
 
@@ -85,11 +85,11 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Screen Shots 
- ![Header](assets/images/1.Header.with%20game.rules.and.jokes.png)
- ![Game Area](assets/images/2.Game.area.png)
- ![Game area choice clicked](assets/images/3.Game.area.with.%20a.choice.clicked.png)
- ![Game area with hover function](assets/images/4.Game.area.with.hover.over.the.top.choices.showing.spock.scaled.up.png)
- ![Footer](assets/images/5.Footer.with.sheldon.coopers.signature.png)
+ ![Header](assets/images/1.%20Header.with.game.rules.jpg)
+ ![Game Area](assets/images/2.Game.area.jpg)
+ ![Game area choice clicked](assets/images/3.Game.area.with.a.choice.clicked.jpg)
+ ![Game area with hover function](assets/images/4.Game.area.with.hover.over.scissors.scaled.up.PNG)
+ ![Footer](assets/images/5.footer.PNG)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -99,47 +99,47 @@ Below this there is a footer with Sheldon coopers full signature and copyright i
 
 * If the user clicks "Rock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
-If the computer chooses 'Rock' it is a tie and no one scores.
-If the computer chooses 'Paper' the computer scores 1 point.
-If the computer chooses 'Scissors' the user scores 1 point.
-If the computer chooses 'Lizard' the user scores 1 point.
-If the computer chooses 'Spock' the computer scores 1 point.
+* If the computer chooses 'Rock' it is a tie and no one scores.
+* If the computer chooses 'Paper' the computer scores 1 point.
+* If the computer chooses 'Scissors' the user scores 1 point.
+* If the computer chooses 'Lizard' the user scores 1 point.
+* If the computer chooses 'Spock' the computer scores 1 point.
 
 
 * If the user clicks "Paper" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
-If the computer chooses 'Rock' the user scores 1 point.
-If the computer chooses 'Paper' it is a tie and no one scores.
-If the computer chooses 'Scissors' the computer scores 1 point.
-If the computer chooses 'Lizard' the computer scores 1 point.
-If the computer chooses 'Spock' the user scores 1 point.
+* If the computer chooses 'Rock' the user scores 1 point.
+* If the computer chooses 'Paper' it is a tie and no one scores.
+* If the computer chooses 'Scissors' the computer scores 1 point.
+* If the computer chooses 'Lizard' the computer scores 1 point.
+* If the computer chooses 'Spock' the user scores 1 point.
 
 
 * If the user clicks "Scissors" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
-If the computer chooses 'Rock' the computer scores 1 point.
-If the computer chooses 'Paper' the user scores 1 point.
-If the computer chooses 'Scissors' it is a tie and no one scores.
-If the computer chooses 'Lizard' the user scores 1 point.
-If the computer chooses 'Spock' the computer scores 1 point.
+* If the computer chooses 'Rock' the computer scores 1 point.
+* If the computer chooses 'Paper' the user scores 1 point.
+* If the computer chooses 'Scissors' it is a tie and no one scores.
+* If the computer chooses 'Lizard' the user scores 1 point.
+* If the computer chooses 'Spock' the computer scores 1 point.
 
 
 * If the user clicks "Lizard" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
-If the computer chooses 'Rock' the computer scores 1 point.
-If the computer chooses 'Paper' the user scores 1 point.
-If the computer chooses 'Scissors' the computer scores 1 point.
-If the computer chooses 'Lizard' it is a tie and no one scores.
-If the computer chooses 'Spock' the user scores 1 point.
+* If the computer chooses 'Rock' the computer scores 1 point.
+* If the computer chooses 'Paper' the user scores 1 point.
+* If the computer chooses 'Scissors' the computer scores 1 point.
+* If the computer chooses 'Lizard' it is a tie and no one scores.
+* If the computer chooses 'Spock' the user scores 1 point.
 
 
 * If the user clicks "Spock" the computer will generate a random choice between Rock, Scissors, Paper, Lizard, Spock.
 
-If the computer chooses 'Rock' the user scores 1 point.
-If the computer chooses 'Paper' the computer scores 1 point.
-If the computer chooses 'Scissors' the user scores 1 point.
-If the computer chooses 'Lizard' the computer scores 1 point.
-If the computer chooses 'Spock' it is a tie and no one scores.
+* If the computer chooses 'Rock' the user scores 1 point.
+* If the computer chooses 'Paper' the computer scores 1 point.
+* If the computer chooses 'Scissors' the user scores 1 point.
+* If the computer chooses 'Lizard' the computer scores 1 point.
+* If the computer chooses 'Spock' it is a tie and no one scores.
 
 
 
@@ -198,8 +198,9 @@ If the computer chooses 'Spock' it is a tie and no one scores.
 * I would also like to thank my loving hubby Viktor Brandt, for helping me, soothing me and inspiring me to push on even when times are hard. 
   And also for taking most of the responsebility with our 2,5 year old son so mommy can study. 
   I love you Viktor.
+* And of course a shoutout to my mentor Daisy McGirr for helping me and explaining to me with great patience when I was stuck, but also inspiring me with confidence where I lacked it. 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Media 
 * Photos taken of my own hand and my boyfriends hand, using a cartoon filter.

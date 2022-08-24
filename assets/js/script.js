@@ -10,6 +10,7 @@ window.onload = function () {
     for (let i = 0; i < 5; i++) {
         let choice = document.createElement('img');
         choice.id = choices[i];
+        choice.class = 'choices';
         choice.src = `assets/images/${choices[i]}.jpg`;
         choice.addEventListener('click', selectChoice);
         document.getElementById('choices').append(choice);
@@ -101,16 +102,13 @@ function gameOver() {
         element.innerText = 'Game Over! - Oh would you look at that? You actually won. Kudos.';
     }
 
-    /*
-    function () {
-        if (computerScore === 4) {
-            document.getElementById('choices').removeAttribute('click');
-            choice.removeEventListener('click', selectChoice);
+    if (computerScore === 4 || yourScore === 4) {
+        let divs = document.querySelectorAll('#choices img');
 
-        } else if (yourScore === 4) {
+        for (let i = 0; i < divs.length; i++) {
             document.getElementById('choices').removeAttribute('click');
-            choice.removeEventListener('click', selectChoice);
+            divs[i].removeEventListener('click', selectChoice);
         }
-    }*/
-    element.style.display = 'block';
+        element.style.display = 'block';
+    }
 }
